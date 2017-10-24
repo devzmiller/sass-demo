@@ -11,7 +11,8 @@ header {
   header a {
     color: #edf2ed; }
     header a:hover {
-      color: #d6f751; }
+      color: #d6f751;
+      font-size: 2em; }
   header ul {
     list-style-type: none; }
     header ul li {
@@ -28,6 +29,7 @@ header {
   width: 30%;
   margin: auto;
   height: 100px;
-  background-color: #d6f751; }
+  background-color: #d6f751;
+  width: 50%; }
 
 /*# sourceMappingURL=application.css.map */

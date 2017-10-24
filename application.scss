@@ -2,7 +2,7 @@ $green: #137006;
 $cream: #edf2ed;
 $chartreuse: #d6f751;
 
-@mixin divs($bg-color) {
+@mixin cats($bg-color) {
   width: 30%;
   margin: auto;
   height: 100px;
@@ -39,9 +39,10 @@ header {
 }
 
 .thing1 {
-  @include divs($green);
+  @include cats($green);
 }
 
 .thing2 {
-  @include divs($chartreuse);
+  @include cats($chartreuse);
+  width: 50%;
 }
